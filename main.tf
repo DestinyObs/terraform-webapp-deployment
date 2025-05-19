@@ -26,7 +26,7 @@ resource "aws_subnet" "webapp_subnet_1" {
 
 resource "aws_subnet" "webapp_subnet_2" {
   vpc_id            = aws_vpc.webapp_vpc.id
-  cidr_block        = "10.0.2.0/24"  # Adjusted to avoid conflict
+  cidr_block        = "10.0.2.0/24"
   availability_zone = "us-east-1b"
   map_public_ip_on_launch = true
 

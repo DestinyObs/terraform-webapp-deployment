@@ -40,8 +40,8 @@ The goal of this setup is to deploy a basic Apache web server and make it access
 ### **2. Clone the Repository**
 
 ```bash
-git clone <REPO_URL>
-cd <REPO_DIRECTORY>
+git clone https://github.com/DestinyObs/terraform-webapp-deployment.git
+cd terraform-webapp-deployment
 ```
 
 ---
